@@ -1,0 +1,225 @@
+/*  
+#001F42 - Темносиний (+ для шрифта)
+#4453A8 - Синий
+#FAAF48 - Оранжевый
+#F6F7FB - Серый
+*/
+body, div, p, a, span, ol, ul, li, img, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 100;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.btn-a{
+    background-color: #4453A8;
+    border-radius: 3px;
+    padding: 18px 20px;
+    border: 2px solid #4453A8;
+    transition: .4s;
+}
+.btn-a:hover{
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    transition: .4s;
+}
+.btn-b{
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    border-radius: 3px;
+    padding: 18px 20px;
+    border: 2px solid #4453A8;
+    transition: .4s;
+}
+.btn-b:hover{
+    background-color: #4453A8;
+    color: #fff;
+    transition: .4s;
+}
+
+h2{
+    font-size: 24px;
+    font-family: GPM;
+}
+p{
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/*  Header  */
+body{
+    font-family: GPL;
+    font-size: 16px;
+    background-color: #F6F7FB;
+    color: #001F42;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #001F42;
+}
+header>nav{
+    width: 1600px;
+    margin: 0 auto;
+    padding-top: 34px;
+}
+#logo{
+    float: left;
+}
+.head-nav{
+    float: left;
+    margin-left: 70px;
+    margin-top: 8px;
+}
+.head-nav li{
+    float: left;
+}
+.head-nav li:not(:last-of-type){
+    margin-right: 40px;
+}
+a{
+    color: #fff;
+    transition: .4s;
+}
+a:hover{
+    color: #FAAF48;
+    transition: .4s;
+}
+#log-panel{
+    float: right;
+    padding-top: 8px;
+}
+#login{
+    margin-right: 20px;
+}
+
+
+/*  Floor 1  */
+.floor-one{
+    width: 100%;
+}
+.flone-main{
+    width: 100%;
+    height: 670px;
+    background-color: #001F42;
+}
+.flone-bottom-figure{
+    border-right: 100vw solid #001F42;
+    border-bottom: 100px solid #F6F7FB;
+
+}
+.flone-main div{
+    width: 1600px;
+    margin: 0 auto;
+}
+.flone-main-left{
+    width: 38%;
+    float: left;
+    color: #fff;
+    padding-top: 190px;
+    padding-left: 5.8%
+}
+.flone-main-left h1{
+    font-family: GPM;
+    font-size: 34px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+.flone-main-left p{
+    padding-bottom: 45px;
+}
+.flone-main-left a{
+    margin-right: 6px;
+}
+.flone-main-right{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.flone-main img{
+    width: 70%;
+}
+
+
+/*  Floor 1  */
+.floor-two{
+    width:100%;
+    margin-top: 30px;
+}
+.fltwo-main{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.fltwo-main ul{
+    width: 50%;
+}
+.fltwo-main ul li{
+    width: 260px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    float: left;
+}
+.fltwo-main ul li:nth-child(1){
+    border-top: 4px solid #4453A8;
+    margin-right: 16px;
+}
+.fltwo-main ul li:nth-child(2){
+    border-top: 4px solid #FAAF48;
+}
+.fltwo-main ul li h2{
+    padding-bottom: 22px;
+}
+.fltwo-main ul li p{
+    font-size: 14px;
+    line-height: 26px;
+    font-family: GPL;
+    padding-bottom: 26px;
+}
+.fltwo-main ul li a{
+    font-size: 14px;
+    line-height: 26px;
+    color: #4453A8;
+    font-family: GPM;
+    transition: .4s;
+}
+.fltwo-main ul li a:hover{
+    color: #001F42;
+    transition: .4s;
+}
+.fltwo-info{
+    padding-top: 30px;
+    width: 36%;
+    position: absolute;
+    right: 80px;
+    top: 0;
+}
+.fltwo-info p{
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+.fltwo-info .btn-b{
+    color: #4453A8;
+    font-family: GPM;
+}
+.fltwo-info .btn-b:hover{
+    color: #fff;
+}
+
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
